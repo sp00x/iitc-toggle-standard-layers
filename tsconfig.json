@@ -21,7 +21,7 @@
     "webpack-env"
   ],
   "files": [
-    "src/Main.ts"
+    "src/ToggleStandardLayersPlugin.ts"
   ],
   "include": [
     "types/*.d.ts",

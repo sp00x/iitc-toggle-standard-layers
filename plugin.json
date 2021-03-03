@@ -4,6 +4,6 @@
   "category": "Controls",
   "description": "Easy standard layer toggling",
   "author": "sspp0000xx",
-  "entry": "src/Main.ts",
+  "entry": "src/ToggleStandardLayersPlugin.ts",
   "minimize": true
 }
