@@ -29,6 +29,7 @@ const ToggleStandardLayersControl = L.Control.extend({
         let el = document.createElement("div");
         
         const iconSize = 15;
+        const adjustYPos = 6;
 
         const stop = (ev: JQuery.ClickEvent) => {
             ev.stopPropagation();
@@ -42,7 +43,7 @@ const ToggleStandardLayersControl = L.Control.extend({
             </a>
             <a class="leaflet-bar-part portals-btn" title="Toggle portals">
                 <div>
-                    <svg viewbox="0 0 40 40" width="${iconSize}" style="margin-top: 4px">
+                    <svg viewbox="0 0 40 40" width="${iconSize}" style="margin-top: ${adjustYPos}px">
                         <circle cx="20" cy="20" r="10" stroke="black" stroke-width="2" fill="white" />
                         <circle cx="20" cy="20" r="4" stroke="black" stroke-width="2" />
                     </svg>
@@ -50,7 +51,7 @@ const ToggleStandardLayersControl = L.Control.extend({
             </a>
             <a class="leaflet-bar-part links-btn" title="Toggle links">
                 <div>
-                    <svg viewbox="0 0 40 40" width="${iconSize}" style="margin-top: 4px">
+                    <svg viewbox="0 0 40 40" width="${iconSize}" style="margin-top: ${adjustYPos}px">
                         <line x1="5" y1="35" x2="35" y2="5" stroke="black" stroke-width="2"  />
                         <circle cx="35" cy="5" r="3" stroke="black" stroke-width="2"  />
                         <circle cx="5" cy="35" r="3" stroke="black" stroke-width="2"  />        
@@ -59,7 +60,7 @@ const ToggleStandardLayersControl = L.Control.extend({
             </a>
             <a class="leaflet-bar-part fields-btn" title="Toggle fields">
                 <div>
-                    <svg viewbox="0 0 40 40" width="${iconSize}" style="margin-top: 4px">
+                    <svg viewbox="0 0 40 40" width="${iconSize}" style="margin-top: ${adjustYPos}px">
                         <!--<polygon points="5,35 20,5 35,35" fill="#999" stroke="black" stroke-width="2" />-->
                         <line x1="5" y1="35" x2="20" y2="5" stroke="black" stroke-width="2" />
                         <line x1="35" y1="35" x2="20" y2="5" style="stroke:rgb(0,0,0); stroke-width:2" />
