@@ -1,0 +1,25 @@
+.toggle-iitc-standard-layers-control a {
+  color: #000;
+  position: relative;
+}
+
+.toggle-iitc-standard-layers-control .all-btn {
+  font-size: 6pt;
+  font-weight: bold;
+}
+
+.toggle-iitc-standard-layers-control a.disabled {
+  color: #999;
+}
+
+.toggle-iitc-standard-layers-control a.disabled::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "✗";
+  color: red;
+  width: 27px;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: bold;
+}

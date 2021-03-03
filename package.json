@@ -1,0 +1,20 @@
+{
+  "name": "iitc-toggle-standard-layers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn build:dev",
+    "build:dev": "yarn ipk build:dev",
+    "build:prod": "yarn ipk build:prod",
+    "start": "yarn ipk fileserver",
+    "autobuild": "yarn ipk autobuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iitcpluginkit": "^1.2.0"
+  }
+}

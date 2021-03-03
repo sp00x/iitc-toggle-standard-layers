@@ -1,0 +1,9 @@
+{
+  "name": "IITC plugin: toggle-standard-layers",
+  "id": "iitc_plugin_togglestandardlayers",
+  "category": "Controls",
+  "description": "Easy standard layer toggling",
+  "author": "sspp0000xx",
+  "entry": "src/Main.ts",
+  "minimize": false
+}
